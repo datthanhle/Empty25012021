@@ -13,77 +13,70 @@
        android:layout_weight="1"
        android:layout_width="match_parent"
        android:layout_height="0dp">
+
        <TextView
-           android:gravity="center"
-           android:text="A"
-           android:layout_weight="1"
+           android:textSize="60sp"
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:text="1"
            android:background="#f20"
-           android:layout_width="match_parent"
-           android:layout_height="0dp">
+           android:gravity="center">
        </TextView>
-       <TextView
-           android:gravity="center"
-           android:text="B"
-           android:layout_weight="1"
-           android:background="#4CAF50"
-           android:layout_width="match_parent"
-           android:layout_height="0dp">
-       </TextView>
-       <TextView
-           android:gravity="center"
-           android:text="C"
-           android:layout_weight="1"
-           android:background="#8BC34A"
-           android:layout_width="match_parent"
-           android:layout_height="0dp">
-       </TextView>
-       <TextView
-           android:gravity="center"
-           android:text="D"
-           android:layout_weight="1"
-           android:background="#3F51B5"
-           android:layout_width="match_parent"
-           android:layout_height="0dp">
-       </TextView>
+
    </LinearLayout>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="0dp">
+        android:layout_height="450dp">
         <TextView
-            android:layout_weight="1"
+            android:textSize="60sp"
             android:gravity="center"
             android:background="#FFC107"
-            android:text="A"
-            android:layout_width="0dp"
+            android:text="2"
+            android:layout_width="150dp"
             android:layout_height="match_parent">
         </TextView>
-        <TextView
+        <LinearLayout
             android:layout_weight="1"
-            android:gravity="center"
-            android:background="#BDB8B7"
-            android:text="B"
             android:layout_width="0dp"
-            android:layout_height="match_parent">
-        </TextView>
-        <TextView
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#9C27B0"
-            android:text="C"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-        </TextView>
-        <TextView
-            android:layout_weight="1"
-            android:gravity="center"
-            android:background="#671750"
-            android:text="D"
-            android:layout_width="0dp"
-            android:layout_height="match_parent">
-        </TextView>
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="60sp"
+                android:gravity="center"
+                android:background="#11FF98"
+                android:text="3"
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+            </TextView>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:textSize="60sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="#F69C9C"
+                    android:text="4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                </TextView>
+                <TextView
+                    android:textSize="60sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="#9C27B0"
+                    android:text="5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
